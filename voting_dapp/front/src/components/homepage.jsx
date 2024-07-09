@@ -5,6 +5,7 @@ const HomePage = (props) => {
         <div className="hp-container">
             <h1 className="hp-header">You are Connected to Metamask</h1>
             <p className="hp-account">Metamask Account: {props.account}</p>
+            <button className="hp-button" onClick={props.disconnectWallet}>Disconnect Wallet</button>
             <p className="hp-account">Remaining Time: {props.remainingTime}</p>
             { props.showButton ? (
                 <p className="hp-account">You have already voted</p>
