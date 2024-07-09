@@ -42,8 +42,6 @@ function App() {
     setAccount(null);
   }
 
-  
-
 
   useEffect( () => {
     getCandidates();
