@@ -15,6 +15,7 @@ function App() {
   const [candidates, setCandidates] = useState([]);
   const [number, setNumber] = useState('');
   const [CanVote, setCanVote] = useState(true);
+  //const [owner, setOwner] = useState(null)
 
   async function MetamaskAuth() {
     if (window.ethereum) {
@@ -40,6 +41,8 @@ function App() {
     setIsConnected(false);
     setAccount(null);
   }
+
+  
 
 
   useEffect( () => {
