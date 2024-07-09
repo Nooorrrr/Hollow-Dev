@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    height: 120vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #userconst, #oppnameconst, #valuecont, #whosturn, #entername,#name {
+    margin: 10px 0;
+    color:black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+  }
+  .smallcont{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+  }
+  #name {
+    padding: 5px;
+    font-size: 2em;
+    
+  }
+  .midcont{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+  }
+  button {
+    padding: 10px 15px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #bigcont {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #cont {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    background-color: #fff;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
