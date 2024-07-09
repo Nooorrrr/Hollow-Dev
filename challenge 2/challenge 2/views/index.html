@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Search</title>
+</head>
+<body>
+    <h1>File Upload and Search</h1>
+
+    <!-- File Upload Form -->
+    <h2>Upload a File</h2>
+    <form action="/files" method="post" enctype="multipart/form-data">
+        <input type="file" name="upload_file"><br><br>
+        <textarea name="description" placeholder="Description"></textarea><br><br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <!-- Search Form -->
+    <h2>Search for a File</h2>
+    <form action="/files/search" method="get">
+        <input type="text" name="id" placeholder="Enter File ID">
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Retrieve File Form -->
+    <h2>Retrieve a File</h2>
+    <form action="/files/retrieve" method="get">
+        <input type="text" name="id" placeholder="Enter File ID">
+        <button type="submit">Retrieve File</button>
+    </form>
+
+    <!-- List of Files -->
+    <h2>Uploaded Files</h2>
+    <ul>
+        <% files.forEach((file) => { %>
+            <li>
+                <strong><%= file.name %></strong>
+                <p>ID: <%= file._id %></p>
+                <p>Filename: <%= file.filename %></p>
+                <p>Size: <%= file.size %> bytes</p>
+                <p>Type: <%= file.mime_type %></p>
+                <p>Description: <%= file.description %></p>
+                <p>Uploaded: <%= file.createdAt.toLocaleString() %></p>
+                <a href="/files/update/<%= file._id %>">Update</a>
+                <a href="/files/retrieve/<%= file._id %>">Retrieve</a>
+            </li>
+        <% }); %>
+    </ul>
+    <!-- In your index.html, replace the Retrieve File form with this link -->
+<h2>Retrieve a File</h2>
+<a href="/files/retrieve">Go to Retrieve File Page</a>
+</body>
+</html>

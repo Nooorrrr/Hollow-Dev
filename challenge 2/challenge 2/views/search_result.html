@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result</title>
+</head>
+<body>
+    <h1>Search Result</h1>
+    
+    <% if (locals.error) { %>
+        <p><%= error %></p>
+    <% } else if (locals.file) { %>
+        <h2>File Found:</h2>
+        <p>Name: <%= file.name %></p>
+        <p>ID: <%= file._id %></p>
+        <p>Size: <%= file.size %> bytes</p>
+        <p>Type: <%= file.mime_type %></p>
+        <p>Description: <%= file.description %></p>
+        <p>Uploaded: <%= file.createdAt.toLocaleString() %></p>
+        
+        <!-- Add this form for delete button -->
+        <form action="/files/delete/<%= file._id %>" method="POST" onsubmit="return confirm('Are you sure you want to delete this file?');">
+            <button type="submit">Delete File</button>
+        </form>
+    <% } %>
+    
+    <a href="/">Back to Home</a>
+</body>
+</html>

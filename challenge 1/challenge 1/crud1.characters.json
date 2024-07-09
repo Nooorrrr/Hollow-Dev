@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "668877af4ea8f5c32c1fb625"
+  },
+  "unique_name": "Gandalf",
+  "class": "Wizard",
+  "level": 50,
+  "health": 1200,
+  "mana": 3000,
+  "createdAt": {
+    "$date": "2024-07-05T12:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878414ea8f5c32c1fb62d"
+  },
+  "unique_name": "Arthas",
+  "class": "Paladin",
+  "level": 45,
+  "health": 1500,
+  "mana": 700,
+  "createdAt": {
+    "$date": "2024-07-05T13:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878644ea8f5c32c1fb630"
+  },
+  "unique_name": "Jaina Proudmoore",
+  "class": "Archmage",
+  "level": 60,
+  "health": 1000,
+  "mana": 3000,
+  "createdAt": {
+    "$date": "2024-07-05T13:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6688786a4ea8f5c32c1fb633"
+  },
+  "unique_name": "Thrall",
+  "class": "Shaman",
+  "level": 50,
+  "health": 1300,
+  "mana": 2200,
+  "createdAt": {
+    "$date": "2024-07-05T14:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878704ea8f5c32c1fb636"
+  },
+  "unique_name": "Illidan",
+  "class": "Demon Hunter",
+  "level": 55,
+  "health": 1800,
+  "mana": 1200,
+  "createdAt": {
+    "$date": "2024-07-05T14:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878784ea8f5c32c1fb639"
+  },
+  "unique_name": "Sylvanas",
+  "class": "Ranger",
+  "level": 38,
+  "health": 950,
+  "mana": 600,
+  "createdAt": {
+    "$date": "2024-07-05T15:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6688787f4ea8f5c32c1fb63e"
+  },
+  "unique_name": "Muradin",
+  "class": "Warrior",
+  "level": 42,
+  "health": 1400,
+  "mana": 300,
+  "createdAt": {
+    "$date": "2024-07-05T15:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878854ea8f5c32c1fb641"
+  },
+  "unique_name": "Malfurion",
+  "class": "Druid",
+  "level": 48,
+  "health": 1200,
+  "mana": 2400,
+  "createdAt": {
+    "$date": "2024-07-05T16:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668878984ea8f5c32c1fb644"
+  },
+  "unique_name": "Rexxar",
+  "class": "Hunter",
+  "level": 37,
+  "health": 1100,
+  "mana": 500,
+  "createdAt": {
+    "$date": "2024-07-05T16:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6688789f4ea8f5c32c1fb647"
+  },
+  "unique_name": "Valeera",
+  "class": "Rogue",
+  "level": 41,
+  "health": 1000,
+  "mana": 800,
+  "createdAt": {
+    "$date": "2024-07-05T17:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887e9dd6f7b7599658ad49"
+  },
+  "unique_name": "Anduin",
+  "class": "Priest",
+  "level": 36,
+  "health": 850,
+  "mana": 1800,
+  "createdAt": {
+    "$date": "2024-07-05T17:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ea5d6f7b7599658ad4c"
+  },
+  "unique_name": "Gul'dan",
+  "class": "Warlock",
+  "level": 39,
+  "health": 1000,
+  "mana": 3000,
+  "createdAt": {
+    "$date": "2024-07-05T18:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887eabd6f7b7599658ad4f"
+  },
+  "unique_name": "Varian",
+  "class": "Warrior",
+  "level": 44,
+  "health": 1600,
+  "mana": 200,
+  "createdAt": {
+    "$date": "2024-07-05T18:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887eb2d6f7b7599658ad52"
+  },
+  "unique_name": "Tyrande",
+  "class": "Priestess",
+  "level": 37,
+  "health": 900,
+  "mana": 1500,
+  "createdAt": {
+    "$date": "2024-07-05T19:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887eb8d6f7b7599658ad55"
+  },
+  "unique_name": "Garrosh",
+  "class": "Warrior",
+  "level": 47,
+  "health": 1700,
+  "mana": 100,
+  "createdAt": {
+    "$date": "2024-07-05T19:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ec2d6f7b7599658ad58"
+  },
+  "unique_name": "Grommash",
+  "class": "Warrior",
+  "level": 43,
+  "health": 1500,
+  "mana": 150,
+  "createdAt": {
+    "$date": "2024-07-05T20:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ec7d6f7b7599658ad5b"
+  },
+  "unique_name": "Maeiv",
+  "class": "Rogue",
+  "level": 39,
+  "health": 1000,
+  "mana": 700,
+  "createdAt": {
+    "$date": "2024-07-05T20:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ecdd6f7b7599658ad5e"
+  },
+  "unique_name": "Kael'thas",
+  "class": "Mage",
+  "level": 42,
+  "health": 1200,
+  "mana": 1800,
+  "createdAt": {
+    "$date": "2024-07-05T21:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ed2d6f7b7599658ad61"
+  },
+  "unique_name": "Genn",
+  "class": "Warrior",
+  "level": 41,
+  "health": 1400,
+  "mana": 200,
+  "createdAt": {
+    "$date": "2024-07-05T21:30:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66887ed8d6f7b7599658ad64"
+  },
+  "unique_name": "Jastor",
+  "class": "Hunter",
+  "level": 38,
+  "health": 1100,
+  "mana": 400,
+  "createdAt": {
+    "$date": "2024-07-05T22:00:00.000Z"
+  },
+  "__v": 0
+}]

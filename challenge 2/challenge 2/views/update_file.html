@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update File</title>
+</head>
+<body>
+    <h1>Update File</h1>
+    <form action="/files/update/<%= file._id %>" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="<%= file.name %>" required><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"><%= file.description %></textarea><br><br>
+
+        <input type="submit" value="Update">
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
