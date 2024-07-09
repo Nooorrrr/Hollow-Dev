@@ -1,16 +1,24 @@
+const fs = require('fs');
+const { ethers } = require('hardhat');
+
 async function main() {
-    const Voting = await ethers.getContractFactory("Voting");
-  
-    // Start deployment, returning a promise that resolves to a contract object
-    const Voting_ = await Voting.deploy(["Mark", "Mike", "Henry", "Rock"], 90);
-    console.log("Contract address:", Voting_.address);
-  
-  
+
+  const data = fs.readFileSync('candidates.json');
+  const candidates = JSON.parse(data).candidates;
+
+  if (!Array.isArray(candidates)) {
+    throw new Error("Candidates should be an array");
   }
-  
-  main()
-   .then(() => process.exit(0))
-   .catch(error => {
-     console.error(error);
-     process.exit(1);
-   });
+
+  const Voting = await ethers.getContractFactory("Vote");
+
+  const Voting_ = await Voting.deploy(candidates, 90);
+  console.log("Contract address:", Voting_.address);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
