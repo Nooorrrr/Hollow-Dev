@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "668d090f666a7d16e4e37252"
+  },
+  "name": "dog.png",
+  "size": 202698,
+  "description": "ohb",
+  "mime_type": "image/png",
+  "path": "public\\data\\uploads\\1720518927159_dog.png",
+  "filename": "1720518927159_dog.png",
+  "createdAt": {
+    "$date": "2024-07-09T09:55:27.174Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-09T09:56:55.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668d0b7b5f0c0b6567b8b827"
+  },
+  "name": "dark.png",
+  "size": 661302,
+  "description": "",
+  "mime_type": "image/png",
+  "path": "public\\data\\uploads\\1720519547795_dark.png",
+  "filename": "1720519547795_dark.png",
+  "createdAt": {
+    "$date": "2024-07-09T10:05:47.815Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-09T10:05:47.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668d0df068b6f25b308d6bf5"
+  },
+  "name": "home (1).png",
+  "size": 6624,
+  "description": "hhoj",
+  "mime_type": "image/png",
+  "path": "public\\data\\uploads\\1720520176443_home (1).png",
+  "filename": "1720520176443_home (1).png",
+  "createdAt": {
+    "$date": "2024-07-09T10:16:16.457Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-09T10:21:30.547Z"
+  },
+  "__v": 0
+}]
